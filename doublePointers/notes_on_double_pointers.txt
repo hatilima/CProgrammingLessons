@@ -1,0 +1,6 @@
+Double pointers are used to change the value of a pointer in a function when you want to the new value to be persistent outside the function. That is, to change the address that is being pointed to by a pointer and maintain the change outside the function that is making the change.
+
+void someChangingFunction(int** pp)
+{
+	//pp changed here and new value carried outside function
+}
